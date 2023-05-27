@@ -106,7 +106,7 @@ void updateItemQuantity(struct Node* head, char* itemName, int newQuantity) {
     itemNode->data.quantity = newQuantity;
     printf("So luong ton kho cua mat hang '%s' da duoc cap nhat.\n", itemName);
 }
-// Hàm tính tổng số lượng sản phẩm trong kho
+// Hàm tính t?ng s? lư?ng s?n ph?m trong kho
 int calculateTotalQuantity(struct Node* head) {
     int totalQuantity = 0;
     struct Node* currNode = head;
@@ -185,6 +185,6 @@ int main() {
             }
         }
     }
-
+   
     return 0;
 }
